@@ -1,0 +1,17 @@
+# Elastic APM
+elastic:
+  apm:
+    enabled: true
+    server-url: http://localhost:8200
+    service-name: elastic-apm-spring-boot-integration
+    secret-token: xxVpmQB2HMzCL9PgBHVrnxjNXXw5J7bd79DFm6sjBJR5HPXDhcF8MSb3vv4bpg44
+    environment: dev
+    application-packages: io.sayadi.elasticapmspringbootintegration
+    log-level: WARN
+
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: health
+

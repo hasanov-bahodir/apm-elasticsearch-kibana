@@ -17,27 +17,27 @@ import java.util.Map;
 @ConditionalOnProperty(value = "elastic.apm.enabled", havingValue = "true", matchIfMissing = true)
 public class ElasticApmConfig {
     private static final String SERVER_URL_KEY = "server_url";
-    @Value("${elastic.apm.server-url}")
+//    @Value("${elastic.apm.server-url}")
     private String serverUrl;
 
     private static final String SERVICE_NAME_KEY = "service_name";
-    @Value("${elastic.apm.service-name}")
+//    @Value("${elastic.apm.service-name}")
     private String serviceName;
 
     private static final String SECRET_TOKEN_KEY = "secret_token";
-    @Value("${elastic.apm.secret-token}")
+//    @Value("${elastic.apm.secret-token}")
     private String secretToken;
 
     private static final String ENVIRONMENT_KEY = "environment";
-    @Value("${elastic.apm.environment}")
+//    @Value("${elastic.apm.environment}")
     private String environment;
 
     private static final String APPLICATION_PACKAGES_KEY = "application_packages";
-    @Value("${elastic.apm.application-packages}")
+//    @Value("${elastic.apm.application-packages}")
     private String applicationPackages;
 
     private static final String LOG_LEVEL_KEY = "log_level";
-    @Value("${elastic.apm.log-level}")
+//    @Value("${elastic.apm.log-level}")
     private String logLevel;
 
     @PostConstruct
