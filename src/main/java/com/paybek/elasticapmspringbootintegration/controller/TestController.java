@@ -24,7 +24,7 @@ public class TestController {
     }
 
     @GetMapping("/super-slow")
-//    @Profile({"predev", "dev", "staging"})
+    @Profile({"prod", "dev"})
     public String getSuperSlowApi() throws InterruptedException {
         Thread.sleep(60000); // sleep for 1 minute!
         return "I'm super slow. Refactor me before moving to production!! :)";
