@@ -9,9 +9,9 @@ elastic:
     application-packages: com.paybek.elasticapmspringbootintegration
     log-level: WARN
 
-  management:
-    endpoints:
-      web:
-        exposure:
-          include: health
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
 
