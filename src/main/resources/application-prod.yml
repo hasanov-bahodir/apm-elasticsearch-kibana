@@ -6,7 +6,7 @@ elastic:
     service-name: elastic-apm-spring-boot-integration
     secret-token: xxVpmQB2HMzCL9PgBHVrnxjNXXw5J7bd79DFm6sjBJR5HPXDhcF8MSb3vv4bpg44
     environment: dev
-    application-packages: io.sayadi.elasticapmspringbootintegration
+    application-packages: com.paybek.elasticapmspringbootintegration
     log-level: WARN
 
   management:

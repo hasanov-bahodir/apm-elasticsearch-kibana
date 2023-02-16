@@ -2,7 +2,6 @@ package com.paybek.elasticapmspringbootintegration.config;
 
 import co.elastic.apm.attach.ElasticApmAttacher;
 import lombok.Setter;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
